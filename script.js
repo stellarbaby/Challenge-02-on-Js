@@ -19,4 +19,12 @@ if (dolphinsScore > koalasScore) {
 } else if (dolphinsScore === koalasScore) {
     console.log("It is a draw game");
 }
- 
+
+// Challenge 04 in Part 2
+
+// Tenary operators
+
+let bill = 275;
+let tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+
+console.log(`The bill was ${bill}, The tip was ${tip} and the total value is ${ bill + tip}`);
